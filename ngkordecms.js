@@ -1,7 +1,7 @@
 /**
  * Created by rubenschmidt on 16.02.2016.
  */
-var kordeCms = angular.module("kordeCms", ['ngCookies', 'ngRoute', 'ngSanitize', 'ngFileUpload']);
+var kordeCms = angular.module("ngKordeCms", ['ngCookies', 'ngRoute', 'ngSanitize', 'ngFileUpload']);
 
 kordeCms.value('apiUrl', '/cms');
 
